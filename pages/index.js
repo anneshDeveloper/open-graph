@@ -12,7 +12,7 @@ export default function Home() {
         <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" />
         <meta property="og:image:width" content="760" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:type" content="type: article" />
+        <meta property="og:type" content="type: website" />
         <meta property="og:description" content="Description: Description about the content" />
       </Head>
 
