@@ -24,6 +24,7 @@ export default function Home() {
           property="og:description"
           content="Description: Description about the content"
         />
+        <meta property="og:locale" content="bn" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@nytimesbits" />
         <meta name="twitter:creator" content="@nickbilton" />
