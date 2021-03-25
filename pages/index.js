@@ -13,7 +13,7 @@ export default function Home() {
         <meta property="og:image:width" content="760" />
         <meta property="og:image:height" content="630" />
         <meta property="og:type" content="type: article" />
-        <meta property="og:description" content="Description: description about the content" />
+        <meta property="og:description" content="Description: Description about the content" />
       </Head>
 
       <main className={styles.main}>
