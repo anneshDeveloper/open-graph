@@ -10,6 +10,7 @@ export default function Home() {
         <meta property="og:title" content="Open Graph: Title section" />
         <meta property="og:url" content="https://www.google.co.in/" />
         <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" />
+        <meta property="og:video" content="https://www.youtube.com/watch?v=lyk5x9EoCWY&t=2s" />
         <meta property="og:image:width" content="760" />
         <meta property="og:image:height" content="630" />
         <meta property="og:type" content="type: website" />
