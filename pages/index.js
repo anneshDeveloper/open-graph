@@ -9,18 +9,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="Open Graph: Title section" />
         <meta property="og:url" content="https://www.google.co.in/" />
-        {/* <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" /> */}
         <meta
+          property="og:image"
+          content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png"
+        />
+        {/* <meta
           property="og:video"
           content="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Frangolibysangeeta%2Fvideos%2F2642623596036093%2F&show_text=false&width=476"
-        />
-        {/* <meta property="og:image:width" content="760" />
-        <meta property="og:image:height" content="630" /> */}
+        /> */}
+        <meta property="og:image:width" content="1000" />
+        <meta property="og:image:height" content="1000" />
         <meta property="og:type" content="type: website" />
         <meta
           property="og:description"
           content="Description: Description about the content"
         />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@nytimesbits" />
+        <meta name="twitter:creator" content="@nickbilton" />
       </Head>
 
       <main className={styles.main}>
