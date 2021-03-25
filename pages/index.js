@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -10,11 +10,17 @@ export default function Home() {
         <meta property="og:title" content="Open Graph: Title section" />
         <meta property="og:url" content="https://www.google.co.in/" />
         {/* <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" /> */}
-        <meta property="og:video" content="https://www.youtube.com/watch?v=lyk5x9EoCWY&t=2s" />
+        <meta
+          property="og:video"
+          content="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Frangolibysangeeta%2Fvideos%2F2642623596036093%2F&show_text=false&width=476"
+        />
         {/* <meta property="og:image:width" content="760" />
         <meta property="og:image:height" content="630" /> */}
         <meta property="og:type" content="type: website" />
-        <meta property="og:description" content="Description: Description about the content" />
+        <meta
+          property="og:description"
+          content="Description: Description about the content"
+        />
       </Head>
 
       <main className={styles.main}>
@@ -23,7 +29,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
@@ -64,10 +70,10 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
     </div>
-  )
+  );
 }
